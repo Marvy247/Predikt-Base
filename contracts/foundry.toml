@@ -1,0 +1,19 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.28"
+
+# Celo Configurations
+[rpc_endpoints]
+celo_alfajores = "https://forno.celo-sepolia.celo-testnet.org"
+celo_mainnet = "https://forno.celo.org"
+
+[profile.etherscan_api_key]
+celo_mainnet = "UYIEZZ8QNAQ3ZVFG9B7ABQ6YCNI17DG7EK"
+
+[profile.verifier]
+celo_mainnet = { url = "https://api.celoscan.io/api" }
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
