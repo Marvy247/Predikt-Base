@@ -144,7 +144,7 @@ export default function Home() {
               Hey <span className="text-primary">{context?.user?.displayName || "there"}</span>, ready to battle? 🎯
             </p>
             <p className="text-base md:text-lg text-foreground/80 max-w-2xl mx-auto">
-              Challenge friends to 1v1 prediction duels. Stake CELO, prove you&apos;re right, and claim victory!
+              Challenge friends to 1v1 prediction duels. Stake ETH, prove you&apos;re right, and claim victory!
             </p>
           </div>
 

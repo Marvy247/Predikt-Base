@@ -74,10 +74,10 @@ export default function BattleDetail() {
       try {
         await switchChain({ chainId: BASE_MAINNET_CHAIN_ID });
         setIsSwitchingChain(false);
-        toast.success("Network switched to Celo");
+        toast.success("Network switched to Base");
         return true;
       } catch (err) {
-        console.error("Failed to switch to Celo network:", err);
+        console.error("Failed to switch to Base network:", err);
         toast.error("Failed to switch network");
         setIsSwitchingChain(false);
         return false;
